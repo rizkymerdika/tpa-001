@@ -111,10 +111,13 @@ footer{
     width: 240px;
     height: 240px;
     position: relative;
+    transition: transform 250ms;
 }
 .project-list-item:hover{
-    bottom: 10px;
-    left: 10px;
+    /* bottom: 10px;
+    left: 10px; */
+    
+    transform: translate(10px, -10px);
 }
 .project-list-item h2, .project-list-item p{
     margin: 12px 12px;
